@@ -1,0 +1,13 @@
+package KieRule;
+import com.ducat.springboot.rest.model.Account;
+
+rule "1"
+
+when
+
+accountObject : Account((accountType == "current" || accountType == "brokerage") &&
+						(productCode == "01" || productCode == "03"));
+						
+then
+accountObject.setEligibilityCheck(true);
+end;
