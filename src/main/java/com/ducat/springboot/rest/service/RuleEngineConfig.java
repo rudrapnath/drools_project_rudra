@@ -1,3 +1,4 @@
+/*
 package com.ducat.springboot.rest.service;
 
 import org.kie.api.runtime.StatelessKieSession;
@@ -20,4 +21,4 @@ return eligibilityRequest;
 
 }
 
-}
+}*/
